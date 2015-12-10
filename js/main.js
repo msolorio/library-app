@@ -20,19 +20,21 @@ function setHamburgerNav() {
 function quoteSlider(){
 	$('.quote-single').slice(1).hide();
 	var currentQuote = $('.quote-single:first-child');
-	var nextQuote;
+	var nextQuote = "";
 	
 	// start the slideshow
 	setInterval(
 		function(){
 			currentQuote.fadeOut(2000,
 				function(){
+					currentQuote.hide();
 					if (currentQuote.next().length == 0) {
 						nextQuote = $('.quote-single:first-child');
 					} else {
 						nextQuote = currentQuote.next();
 					}
 					nextQuote.fadeIn(2000);
+					nextQuote.show();
 					currentQuote = nextQuote;
 				}
 			);
