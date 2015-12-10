@@ -16,7 +16,6 @@ NORMALIZE.CSS
 ***********************************
 GENERAL STYLES
 ***********************************/
-
 	html {
 	  -webkit-box-sizing: border-box;
 	  -moz-box-sizing: border-box;
@@ -34,7 +33,6 @@ GENERAL STYLES
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 	}
-	
 	h2, h3, h4, h5, h6, p, li, ul, div {
 		margin:0;
 		padding:0;
