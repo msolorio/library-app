@@ -24,7 +24,7 @@ http://demo.lunartheme.com/lincoln/
 		<nav class="nav-bar bg-light-grey box-shadow">
 			<div class="section-wrap">
 				<div class="logo-container">
-					<img class="logo-img" src="img/library-logo.png" width="286" height="77" alt="">
+					<a class="logo-a" href="/library-app"><img class="logo-img" src="img/library-logo.png" alt="King Public Library"></a>
 				</div>
 				<ul class="nav-ul">
 					<li class="nav-li"><a href="" class="nav-li-a">item 1</a>
