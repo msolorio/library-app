@@ -1,6 +1,6 @@
 /*
 Project Name: Library Database Application
-Description: This is my Library App still in development
+Description: This is an application for a library using PHP and MySQL
 Author: Michael Solorio
 Email: msolorio.wd@gmail.com
 */
@@ -213,6 +213,9 @@ HEADING DESKTOP NAVIGATION
 /***********************************
 HAMBURGER NAVIGATION
 ***********************************/
+	.hamburger-nav {
+		display:none;
+	}
 	.hamburger, .cross {
 		display:none;
 	}
@@ -241,8 +244,6 @@ HAMBURGER NAVIGATION
 		cursor:pointer;
 		line-height:59px;
 		outline:none;
-	}
-	.hamburger-nav {
 	}
 	.hamburger-nav-ul {
 		text-align:center;
@@ -461,7 +462,7 @@ MEDIA QUERIES
 	/***********************************
 	HAMBURGER NAV
 	***********************************/
-		.hamburger, .cross {
+		.hamburger {
 			display:block;
 		}
 
