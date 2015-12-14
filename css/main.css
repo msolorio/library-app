@@ -252,7 +252,6 @@ HAMBURGER NAVIGATION
 		margin:0;
 	}
 	.hamburger-nav-li {
-		padding:12px;
 		border-top: 2px solid #515151;
 		font-family:sans-serif;
 	}
@@ -261,6 +260,7 @@ HAMBURGER NAVIGATION
 	}
 	.hamburger-nav-a {
 		display:block;
+		padding: 12px;
 		text-decoration:none;
 		text-transform:uppercase;
 	}
