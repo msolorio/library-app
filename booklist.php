@@ -11,8 +11,6 @@ http://demo.lunartheme.com/lincoln/
 	<link rel="stylesheet" href="css/normalize.css" type="text/css">
 	<link rel="stylesheet" href="css/main.css" type="text/css"/>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
 	<header>
@@ -142,5 +140,6 @@ http://demo.lunartheme.com/lincoln/
 		</div>
 		<div class="copyright text-medium-grey">&copy;Copyright, All Rights Reserved</div>
 	</footer>
+	<script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

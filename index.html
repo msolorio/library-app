@@ -6,15 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/main.css" type="text/css"/>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet' type='text/css'>
-	<script type="text/javascript" src="js/main.js"></script>
-	<script type="text/x-handlebars-template" id="quotes-template">
-	{{#quotes_group}}
-		<div class="quote-single text-dark-blue text-shadow">
-			<div class="quote-text">{{ quote }}</div>
-			<div class="quote-label">- {{ label }}</div>
-		</div>
-	{{/quotes_group}}
-	</script>
 </head>
 <body>
 	<header>
@@ -161,5 +152,14 @@
 		</div>
 		<div class="copyright text-medium-grey">&copy;Copyright, All Rights Reserved</div>
 	</footer>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/x-handlebars-template" id="quotes-template">
+	{{#quotes_group}}
+		<div class="quote-single text-dark-blue text-shadow">
+			<div class="quote-text">{{ quote }}</div>
+			<div class="quote-label">- {{ label }}</div>
+		</div>
+	{{/quotes_group}}
+	</script>
 </body>
 </html>
